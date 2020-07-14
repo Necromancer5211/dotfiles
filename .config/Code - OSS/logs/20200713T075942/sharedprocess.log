@@ -1,2 +1,0 @@
-[2020-07-13 07:59:46.066] [sharedprocess] [info] main {"machineId":"7ec97197e8399140e1687fece85a18486b53c7555661aa40e667c884390686d5","windowId":2}
-[2020-07-13 07:59:46.085] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/bspwm/.config/Code - OSS/User/snippets'
