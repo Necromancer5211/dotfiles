@@ -1,5 +1,0 @@
-2020/07/14-08:38:33.272 6be8 Reusing MANIFEST /home/bspwm/.config/google-chrome/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/14-08:40:40.359 19cd Level-0 table #5: started
-2020/07/14-08:40:40.361 19cd Level-0 table #5: 26809 bytes OK
-2020/07/14-08:40:40.363 19cd Delete type=0 #3
-2020/07/14-08:40:40.363 19cd Manual compaction at level-0 from (begin) .. (end); will stop at (end)

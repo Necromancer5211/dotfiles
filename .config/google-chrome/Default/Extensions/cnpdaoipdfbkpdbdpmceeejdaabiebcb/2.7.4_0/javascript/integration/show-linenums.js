@@ -1,1 +1,0 @@
-showLineNums=!0;

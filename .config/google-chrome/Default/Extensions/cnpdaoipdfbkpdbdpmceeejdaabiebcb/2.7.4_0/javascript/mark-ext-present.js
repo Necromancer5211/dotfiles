@@ -1,1 +1,0 @@
-$(document).ready(function(){$("body").attr("codota-ext-present",!0)});

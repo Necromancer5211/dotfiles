@@ -1,1 +1,0 @@
-var attempts=5,repTimer=setInterval(function(){0==--attempts&&clearTimeout(repTimer),replaceSnippets($(".syntaxhighlighter").filter(":not([data-snippet-id])"),{replaceCode:function(a,b){$(a).after(b.formattedHtml)},loading:function(a,b){return $(a).before(b),b},shouldEnhance:function(a){return!0},shouldAddLineNumbers:function(){return showLineNums}})},2500);
