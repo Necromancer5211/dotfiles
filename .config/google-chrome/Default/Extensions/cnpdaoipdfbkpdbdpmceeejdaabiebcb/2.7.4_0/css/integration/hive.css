@@ -1,0 +1,23 @@
+pre.prettyprint {
+	margin: 0 0 1em 0  !important;
+	padding: 1em  !important;
+	overflow: auto  !important;
+	border: solid 1px #ddd !important;
+	background: #fefefe !important;
+	display: block;
+	font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace;
+	font-size: 16px;
+}
+
+
+pre.prettyprint .source-hl, pre.prettyprint .var-hl {
+	border-bottom: 1px solid #B0C9DF !important;
+}
+
+
+.codota-snippet-title {
+	color: #A4CB07 !important;
+	font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace !important;
+	font-size: 17px !important;
+
+}

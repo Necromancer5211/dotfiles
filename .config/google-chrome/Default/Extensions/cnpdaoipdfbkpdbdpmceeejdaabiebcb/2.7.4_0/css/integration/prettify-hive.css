@@ -1,0 +1,18 @@
+.pln{color:#000}
+
+@media screen {
+	.str{
+		color:#0083FD;
+	}
+	.kwd, .tag{font-weight: bold; color: #00b4e2}
+	.com{color:#99BA14;}
+	.typ{
+		/*color:#445588;*/
+		/*font-weight: bold;*/
+	}
+	.lit{color:#808080}
+	.pun,.opn,.clo{color:#660}.atn{color:gray}.atv{color:#0083FD}.dec,.var{color:#606}.fun{color:red}
+}
+@media print,projection{
+	.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}
+}

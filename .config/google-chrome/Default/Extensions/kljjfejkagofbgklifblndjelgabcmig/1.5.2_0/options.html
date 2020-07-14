@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Make Medium Readable Again Settings</title>
+		<style>
+		body: { padding: 10px; }
+		label {
+			display: block;
+			margin: 1em 0;
+		}
+		#status {
+			font-size: 1.1em;
+		}
+		#save {
+			margin-right: auto;
+		}
+		</style>
+	</head>
+	<body>
+
+		<h2>Personal Preferences</h2>
+
+		<label>
+			<input type="checkbox" id="dickbar"> Hide sharing dickbar
+		</label>
+
+		<label>
+			<input type="checkbox" id="images"> Disable lazy image loading
+		</label>
+
+		<label>
+			<input type="checkbox" id="highlight"> Disable Highlight Menu
+		</label>
+
+		<hr />
+
+		<h2>Default Features</h2>
+
+		<label>
+			<input type="checkbox" checked="checked" disabled="disabled"> Un-stick top navigation bar
+		</label>
+
+		<label>
+			<input type="checkbox" checked="checked" disabled="disabled"> Hide bottom <em>Get Updates</em> bar
+		</label>
+
+		<label>
+			<input type="checkbox" checked="checked" disabled="disabled"> Make massive header images less ridiculous
+		</label>
+
+		<hr />
+
+		<p id="status"></p>
+
+		<button id="save">Save</button>
+
+		<script src="options.js"></script>
+
+	</body>
+</html>

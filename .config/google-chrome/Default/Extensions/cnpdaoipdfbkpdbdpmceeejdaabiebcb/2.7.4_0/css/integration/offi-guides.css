@@ -1,0 +1,8 @@
+pre.prettyprint {
+	margin: 0 0 1em 0  !important;
+	padding: 1em  !important;
+	overflow: auto  !important;
+	border: solid 1px #ddd !important;
+	background: #f7f7f7 !important;
+	display: block;
+}

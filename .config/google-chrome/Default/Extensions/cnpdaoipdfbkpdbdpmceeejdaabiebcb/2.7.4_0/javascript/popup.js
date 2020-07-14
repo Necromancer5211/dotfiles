@@ -1,0 +1,1 @@
+const url="https://www.codota.com/code/chrome-extension",iFrame=$("<iframe src="+url+' width="100%" height="100%" frameborder="0"></iframe>');setTimeout(function(){$("body").append(iFrame)},0);

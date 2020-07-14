@@ -1,0 +1,21 @@
+{
+   "app": {
+      "display_mode": "browser",
+      "launch": {
+         "web_url": "https://www.root-me.org/en/Challenges"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "YHhFmX0LFqqTqdgpkg8Ew/aWN6OX4Y1VkO1UzBRbaz0=",
+   "name": "https://www.root-me.org/en/Challenges",
+   "version": "2020.7.13.7822"
+}

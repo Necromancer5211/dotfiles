@@ -1,0 +1,60 @@
+.pln{color:#000}
+
+@media screen {
+	.str{
+		color:blue !important;
+	}
+	.kwd{
+		font-weight: bold; 
+		color: #069 !important;
+	}
+	.com{
+		color:#008200 !important;
+	}
+	.typ{
+		color: black !important;
+		/*color:#445588;*/
+		/*font-weight: bold;*/
+	}
+	.lit{color:#000 !important}
+	.pun,.opn,.clo{color:#660}.tag{color:#000 !important;}.atn{color:#000 !important;}.atv{color:blue !important}.dec,.var{color:#606}.fun{color:red}
+}
+@media print,projection{
+	.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}
+}
+
+pre.prettyprint {
+	font-family: "Consolas","Bitstream Vera Sans Mono","Courier New",Courier,monospace !important;
+	font-size: 14px;
+	line-height: 15.4px;
+	margin-bottom: 1em;
+}
+
+.prettyprint.lines {
+  -webkit-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0 !important;
+     -moz-box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0 !important;
+          box-shadow: inset 40px 0 0 #fbfbfc, inset 41px 0 0 #ececf0 !important; 
+      }
+
+
+/* Put a border around prettyprinted code snippets. */
+pre.prettyprint.linenums { 
+	padding: 2px; 
+	border: 1px solid #E0E0E0 !important; 
+	padding-left: 20px !important;
+}
+
+/* Specify class=linenums on a pre to get line numbering */
+ol.linenums { margin-top: 0 !important; margin-bottom: 0 !important} /* IE indents via margin-left */
+
+/* Alternate shading for lines */
+li.L1,
+li.L3,
+li.L5,
+li.L7,
+li.L9 { background: #f8f8f8;  }
+
+pre.prettyprint li {
+	border-left: 3px solid #6CE26C !important;	
+	padding-left: .5em !important;
+}

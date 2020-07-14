@@ -1,0 +1,1 @@
+window.addEventListener("message",function(a){if(void 0!==a.data)switch(a.data.type){case"authenticated":chrome.runtime.sendMessage(a.data)}},!1);

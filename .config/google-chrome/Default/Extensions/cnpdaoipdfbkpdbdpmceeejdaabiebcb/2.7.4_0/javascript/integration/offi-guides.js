@@ -1,0 +1,1 @@
+replaceSnippets($("pre.prettyprint"),{replaceCode:function(a,b){$(a).after(b.formattedHtml)},loading:function(a,b){return $(a).before(b),b},shouldEnhance:function(a){return!0}});

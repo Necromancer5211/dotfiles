@@ -1,0 +1,8 @@
+2020/07/14-14:12:44.256 20275 Reusing MANIFEST /home/bspwm/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/14-14:12:44.256 20275 Recovering log #130
+2020/07/14-14:12:44.256 20275 Reusing old log /home/bspwm/.config/google-chrome/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000130.log 
+2020/07/14-14:12:46.260 203d5 Level-0 table #134: started
+2020/07/14-14:12:46.260 203d5 Level-0 table #134: 0 bytes OK
+2020/07/14-14:12:46.261 203d5 Delete type=0 #130
+2020/07/14-14:12:46.262 203d5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/14-14:12:46.262 203d5 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

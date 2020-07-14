@@ -1,0 +1,20 @@
+{
+   "background": {
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "cookies.png"
+   },
+   "description": "Cookie Manager",
+   "icons": {
+      "128": "cookies_128.png",
+      "16": "cookies_16.png",
+      "48": "cookies_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlMI0JtuxmmqpZGpKIGohqsgniTmLRyh8k8y3s2O1+LhMcRg1WJG7uNRHi5FOgo13JQnavdCDKKzejDrYFBmK0Go1I7C8Dn/F9aTwLvCqrcQNE0qAMR4dlhA/lLcMhqmCoIlCEox0jqmf8M1BzXjCV2dosvp0uEvgFMm1QCZTZQwR1IdjZLPYbOYEvSHp8GqWPoVeX1aRJmoq4qgP2gb3JSz1qv26sFlu4G4Ktwp1NXH7hgHOnsNDVRNKBqlcR7AOMGTKMXmcPvCFdISqBwUSv//X5TqZBMhELkWCOg5zGjghLw67xWYF/qw9Ig5q4ikO5Ha3npBqwEJJbf2XLcu09wIDAQAB",
+   "manifest_version": 2,
+   "name": "Cookie Manager",
+   "permissions": [ "cookies", "tabs", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.1"
+}

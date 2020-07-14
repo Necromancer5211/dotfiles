@@ -1,0 +1,1 @@
+replaceSnippets($("pre.prettyprint"),{replaceCode:function(a,b){$(a).after(b.formattedHtml),$(".prettyprint").attr("id","codesample-block")},loading:function(a,b){return $(a).before(b),b},topBarPositioningElement:function(a){return a.parents("#jd-content")},shouldEnhance:function(a){return!0}});

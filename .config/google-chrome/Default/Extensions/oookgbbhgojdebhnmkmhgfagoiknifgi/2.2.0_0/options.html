@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Unspoiler Options</title>
+  <link href="bootstrap.css" media="all" rel="stylesheet" type="text/css">
+  <style>
+    #content {
+      padding: 20px;
+      max-width: 500px;
+    }
+    ul {
+      margin: 0;
+    }
+    li {
+      list-style: none;
+    }
+    .remove {
+      display: inline-block;
+      text-align: center;
+      padding: 2px 4px;
+      width: 10px;
+      font-size: 11.844px;
+      font-weight: bold;
+      line-height: 14px;
+      color: #FFF;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+      white-space: nowrap;
+      vertical-align: baseline;
+      background-color: #999;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      border-radius: 9px;
+      cursor: pointer;
+      margin-right: 5px;
+    }
+    .remove:hover {
+      background: #CC0000;
+    }
+    section {
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #EEE;
+    }
+  </style>
+  <script src="jquery.js"></script>
+  <script src="common.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div id="content">
+    <section>
+      <h3>Show Warning Flag</h3>
+      <p>Warning flag will appear at the top of a page if it contains spoilers.</p>
+      <p class="hide">Warning flag will NOT appear at the top of a page that contains spoilers.</p>
+      <label for="headline-block" class="radio">
+        Yes
+        <input id="headline-block" type="radio" name="warningflag" value="true" checked="checked">
+      </label>
+      <label for="fullpage-block" class="radio">
+        No
+        <input id="fullpage-block" type="radio" name="warningflag" value="false">
+      </label>
+    </section>
+    <section>
+      <div id="tag-wrapper" class="row-fluid">
+        <h3>Add a TV Show to be Unspoiled</h3>
+        <input id="spoiler-input" type="text" class="span12" placeholder="Type the name of the show you want blocked">
+        <button id="unspoil-button" class="btn btn-primary">Unspoil</button>
+        <h3>Your Unspoiler Tags</h3>
+        <ul id="tag-list">
+          
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div id="spoiler-wrapper" class="row-fluid">
+        <h3>Your Saved Spoilers</h3>
+        <p>View your saved spoilers at <a href="http://www.unspoiler.tv/spoilers">www.unspoiler.tv</a></p>
+        <ul id="spoiler-list">
+    
+        </ul>
+      </div>
+    </section>
+    <section>
+      <div id="site-wrapper" class="row-fluid">
+        <h3>Add a domain to be whitelisted</h3>
+        <input id="whitelist-input" type="text" class="span12" placeholder="Ex: facebook.com">
+        <button id="whitelist-button" class="btn btn-primary whitelist-button">Whitelist</button>
+        <h3>Your Whitelisted Sites</h3>
+        <ul id="white-list">
+      
+        </ul>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+2020/07/14-14:12:43.830 2027a Reusing MANIFEST /home/bspwm/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2020/07/14-14:12:43.830 2027a Recovering log #274
+2020/07/14-14:12:43.830 2027a Reusing old log /home/bspwm/.config/google-chrome/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000274.log 
+2020/07/14-14:13:46.399 20582 Level-0 table #278: started
+2020/07/14-14:13:46.449 20582 Level-0 table #278: 5369882 bytes OK
+2020/07/14-14:13:46.452 20582 Delete type=0 #274
+2020/07/14-14:13:46.751 20582 Level-0 table #280: started
+2020/07/14-14:13:46.803 20582 Level-0 table #280: 5369681 bytes OK
+2020/07/14-14:13:46.806 20582 Delete type=0 #277
+2020/07/14-14:14:52.853 20582 Level-0 table #282: started
+2020/07/14-14:14:52.939 20582 Level-0 table #282: 5369874 bytes OK
+2020/07/14-14:14:52.941 20582 Delete type=0 #279
+2020/07/14-14:14:52.943 20582 Compacting 4@0 + 2@1 files
+2020/07/14-14:14:53.056 20582 Generated table #283@0: 1 keys, 5369681 bytes
+2020/07/14-14:14:53.060 20582 Generated table #284@0: 5 keys, 378 bytes
+2020/07/14-14:14:53.060 20582 Compacted 4@0 + 2@1 files => 5370059 bytes
+2020/07/14-14:14:53.061 20582 compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/07/14-14:14:53.061 20582 Delete type=2 #273
+2020/07/14-14:14:53.061 20582 Delete type=2 #280
+2020/07/14-14:14:53.061 20582 Delete type=2 #278
+2020/07/14-14:14:53.061 20582 Delete type=2 #272
+2020/07/14-14:14:53.061 20582 Delete type=2 #282
+2020/07/14-14:14:53.061 20582 Delete type=2 #275

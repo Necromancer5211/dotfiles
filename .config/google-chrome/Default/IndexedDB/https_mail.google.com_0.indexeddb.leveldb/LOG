@@ -1,0 +1,5 @@
+2020/07/14-12:32:54.870 1aa57 Reusing MANIFEST /home/bspwm/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/14-13:18:55.170 d4d2 Level-0 table #5: started
+2020/07/14-13:18:55.175 d4d2 Level-0 table #5: 380965 bytes OK
+2020/07/14-13:18:55.177 d4d2 Delete type=0 #3
+2020/07/14-13:18:55.177 d4d2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

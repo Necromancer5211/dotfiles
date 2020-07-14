@@ -1,0 +1,32 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "common.js", "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "jquery.js", "unspoiler.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "description": "Don't let the internet spoil your TV! Block headlines, tweets, facebook posts and everything with Unspoiler.",
+   "homepage_url": "http://www.unspoiler.tv/",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCWwHAvjFNQChO3d95Tm7hIFSIUFLHtpy7iglWGnst+1tsEIXGJisBwSthqcuC+WW3fHZ525Cy0C+EpXN1/bTC/sMSdXupsUjLkfh+lj4PKSVyD+BBkt/vydtKzyhtIyk5Xe31obUyRRDMnq4+U8QAuyYXMh2c8mtbmMsVVuLiRLQIDAQAB",
+   "manifest_version": 2,
+   "name": "Unspoiler",
+   "omnibox": {
+      "keyword": "unspoil"
+   },
+   "options_page": "options.html",
+   "permissions": [ "tabs", "background", "storage", "http://*/*", "https://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.2.0"
+}

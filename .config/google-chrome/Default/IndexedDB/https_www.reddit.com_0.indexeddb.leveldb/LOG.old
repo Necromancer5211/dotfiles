@@ -1,0 +1,15 @@
+2020/07/14-12:28:57.881 1a66b Reusing MANIFEST /home/bspwm/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/14-12:28:57.881 1a66b Recovering log #147
+2020/07/14-12:28:57.881 1a66b Reusing old log /home/bspwm/.config/google-chrome/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000147.log 
+2020/07/14-12:30:01.642 d4d2 Level-0 table #152: started
+2020/07/14-12:30:01.644 d4d2 Level-0 table #152: 1300 bytes OK
+2020/07/14-12:30:01.645 d4d2 Delete type=0 #147
+2020/07/14-12:30:01.646 d4d2 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/14-12:30:01.646 d4d2 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 566 : 1
+2020/07/14-12:30:01.646 d4d2 Compacting 1@1 + 1@2 files
+2020/07/14-12:30:01.647 d4d2 Generated table #153@1: 20 keys, 1274 bytes
+2020/07/14-12:30:01.647 d4d2 Compacted 1@1 + 1@2 files => 1274 bytes
+2020/07/14-12:30:01.648 d4d2 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/14-12:30:01.649 d4d2 Delete type=2 #152
+2020/07/14-12:30:01.649 d4d2 Delete type=2 #149
+2020/07/14-12:30:01.649 d4d2 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 566 : 1 .. (end); will stop at (end)

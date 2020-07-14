@@ -1,0 +1,23 @@
+.pln{color:#000}
+
+@media screen {
+	.str{
+		color:blue !important;
+	}
+	.kwd{
+		font-weight: bold; 
+		color: #006699 !important;
+	}
+	.com{
+		color:#008200 !important;
+	}
+	.typ{
+		/*color:#445588;*/
+		/*font-weight: bold;*/
+	}
+	.lit{color:#009900 !important}
+	.pun,.opn,.clo{color:#660}.tag{color:#006699 !important; font-weight: bold;}.atn{color:gray !important;}.atv{color:blue !important}.dec,.var{color:#606}.fun{color:red}
+}
+@media print,projection{
+	.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}
+}
